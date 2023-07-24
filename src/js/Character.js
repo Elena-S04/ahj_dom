@@ -13,7 +13,7 @@ export default class Character {
 
   randomMove() {
     const itemWithCharacter = this.items.findIndex((item) =>
-      item.querySelector(".img"),
+      item.querySelector(".img")
     );
     let randomItem = Math.floor(Math.random() * this.items.length);
 

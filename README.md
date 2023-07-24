@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/i6h57fds0226o9t2?svg=true)](https://ci.appveyor.com/project/Elena-S04/ahj_dom)
+[![Build status](https://ci.appveyor.com/api/projects/status/p16rjtbpxiwwl6y7?svg=true)](https://ci.appveyor.com/project/Elena-S04/ahj-dom)
