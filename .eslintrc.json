@@ -1,20 +1,21 @@
 {
     "extends": ["plugin:prettier/recommended"],
     "plugins": ["prettier"],
+
     "env": {
       "es6": true,
       "browser": true,
       "jest": true
     },
+    "parser": "@babel/eslint-parser",
     "rules": {
       "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
-      "prettier/prettier": ["error", { "endOfLine": "auto" }],
+      "prettier/prettier": "error",
       "arrow-body-style": "off",
       "prefer-arrow-callback": "off"
     },
     "parserOptions": {
       "sourceType": "module",
-      "allowImportEverywhere": true,
-      "parser": "@babel/eslint-parser"
+      "allowImportEverywhere": true
     }
   }

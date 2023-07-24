@@ -15,9 +15,8 @@ export default class Character {
     const itemWithCharacter = this.items.findIndex((item) =>
       item.querySelector(".img"),
     );
-    
-    let randomItem = Math.floor(Math.random() * this.items.length);
 
+    let randomItem = Math.floor(Math.random() * this.items.length);
     if (itemWithCharacter) {
       while (randomItem === itemWithCharacter) {
         randomItem = Math.floor(Math.random() * (this.items.length - 1));
