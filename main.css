@@ -1,0 +1,36 @@
+.html {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.field {
+  margin: 0 auto;
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.item {
+  position: relative;
+  color: #0b6684;
+  margin-right: 10px;
+  width: 140px;
+  height: 140px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: rgb(64, 165, 123);
+}
+
+.img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
