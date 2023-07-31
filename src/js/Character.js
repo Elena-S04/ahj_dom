@@ -29,6 +29,6 @@ export default class Character {
     const characterToMove = this.createCharacter();
     setInterval(() => {
       this.items[this.randomMove()].appendChild(characterToMove);
-    }, 2000);
+    }, 1000);
   }
 }
